@@ -1,0 +1,28 @@
+{
+  "name": "easyway-healthcare",
+  "version": "1.0.0",
+  "description": "EASYWAY — Healthcare Made Easy | Full-Stack Healthcare Appointment Platform for Vijayawada, Andhra Pradesh, India",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm test",
+    "start": "cd server && npm start",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "healthcare",
+    "appointments",
+    "vijayawada",
+    "easyway",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "Simhadri Raja (simhadrirajagmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
